@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(64, 188, 249);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#head-foot {
+    background-color: rgb(141, 152, 158);
+    color: rgb(234, 241, 247);
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    clear: both;
+}
+
+nav {
+    background-color: rgb(134, 121, 221);
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    margin: 4px;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(99, 87, 177, 0);
+    transition-duration: 0.2s;
+    padding: 6px;
+}
+
+nav li a:hover {
+    background-color: rgb(99, 87, 177, 1);
+    color: red;
+}
+
+aside {
+    background-color: rgb(62, 93, 232);
+    transition-duration: 0.5s;
+    width: 30%;
+    float: right;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+aside:hover {
+    background-color: rgb(205, 42, 220);
+}
+
+aside p {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+aside h2 {
+    padding-left: 5px;
+}
+
+#content {
+    float: left;
+    width: 65%;
+    height: 160px;
+    background-color: rgb(38, 223, 226);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#content input[type="text"] {
+    width: 150px;
+    height: 15px;
+    transition-duration: 0.3s;
+}
+
+#content input[type="text"]:focus {
+    width: 300px;
+    height: 30px;
+}
