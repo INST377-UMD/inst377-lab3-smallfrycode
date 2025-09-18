@@ -3,7 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#head-foot {
+.head-foot {
     background-color: rgb(141, 152, 158);
     color: rgb(234, 241, 247);
     text-align: center;
